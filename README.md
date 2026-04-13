@@ -1,63 +1,116 @@
  Customer Churn Analysis in Telecommunications
  Overview
 
-Customer churn is a major challenge in the telecommunications industry. Losing customers leads to significant revenue loss, especially when high-value customers leave.
+Customer churn is a major challenge in the telecommunications industry, as losing customers directly impacts long-term revenue and growth. Traditional approaches often react to churn after it occurs, rather than preventing it.
 
 This project aims to:
 
 Predict which customers are likely to churn
-Identify key drivers of churn
-Estimate financial impact
-Recommend actionable business strategies
- Risk Segmentation
+Identify key drivers behind churn behavior
+Quantify the financial impact of churn
+Recommend actionable strategies to improve retention
+📊 Risk Segmentation and Business Impact
 
-Churn risk is not evenly distributed. A portion of customers accounts for a large share of revenue at risk.
+<img width="1024" height="374" alt="Screenshot 2026-04-13 at 12 50 40 PM" src="https://github.com/user-attachments/assets/6f261e5f-2907-4dbe-a1ac-eecbe93c4aa2" />
 
- Model Performance
+Churn risk is not evenly distributed across the customer base. By segmenting customers into risk tiers, we observe that a relatively small portion of customers accounts for a disproportionately large amount of revenue at risk.
 
-The model successfully identifies high-risk customers. Lift analysis shows that targeted intervention is significantly more effective than random selection.
+This segmentation allows businesses to:
 
- Churn Drivers
+prioritize high-risk, high-value customers
+allocate retention resources more effectively
+understand where the greatest financial exposure exists
 
-Churn is highest among:
+This step is critical because it transforms churn from a general problem into a targeted business opportunity.
 
-New customers (low tenure)
-Month-to-month contracts
+🤖 Model Performance
 
-These are the strongest predictors of churn behavior.
+👉 INSERT GRAPH HERE:
+Lift by Decile chart
 
- Business Impact
+👉 Also include:
+Model metrics table (AUC, Accuracy, Precision, Recall, F1)
 
-If no action is taken:
+To predict churn, we trained machine learning models and evaluated their performance using multiple metrics.
 
-Expected loss: -$334K
+While standard metrics such as AUC and accuracy show that the model performs well, the most important result is the lift analysis.
 
-With intervention:
+Lift demonstrates that:
 
-Expected value: +$77K
+the model successfully ranks customers by churn risk
+the highest-risk groups contain significantly more churners than average
+targeted intervention is far more effective than random outreach
 
-This demonstrates that acting on the model creates real financial value.
+This confirms that the model is not only accurate, but also actionable in a business context.
 
-Strategy Recommendations
+🔍 Key Drivers of Churn
 
-Strategies are prioritized based on:
+👉 INSERT GRAPH HERE:
+Cohort Analysis: Churn by Tenure Segment
+(bar chart + heatmap)
 
-Business impact
-Implementation effort
-Estimated ROI
+Understanding why customers churn is just as important as predicting who will churn.
 
-High-impact strategies should be prioritized first.
+The cohort analysis reveals two major drivers:
 
-Conclusion
+Tenure: New customers are significantly more likely to churn
+Contract Type: Month-to-month customers have the highest churn rates
 
-This project demonstrates that:
+The interaction between these factors is especially important.
+New customers on flexible contracts are the most vulnerable segment.
 
-Churn can be predicted effectively
-Key drivers are identifiable
-Targeted intervention improves outcomes
-Data-driven strategies can reduce revenue loss
-🛠️ Tools Used
-Python
-Pandas, NumPy
-Scikit-learn
-Matplotlib / Seaborn
+This insight suggests that:
+
+early customer experience is critical
+contract structure plays a major role in retention
+💰 Financial Impact of Churn
+
+👉 INSERT GRAPH HERE:
+Expected Value Comparison (Intervene vs No Action)
+
+To evaluate the business impact, we calculated expected value under two scenarios:
+
+No Action: Customers churn based on predicted probabilities
+Intervention: Targeted retention strategies are applied
+
+Results show:
+
+Doing nothing leads to significant expected losses
+Targeted intervention produces positive expected value
+
+This demonstrates that churn prediction is not just informative — it directly supports profit-improving decisions.
+
+🎯 Targeting High-Value Customers
+
+👉 INSERT GRAPH HERE:
+Top 10 Highest-Value Intervention Cases (table)
+
+Not all customers should be treated equally.
+By combining churn probability with customer value (CLV), we can identify the most important customers to retain.
+
+These high-priority customers:
+
+have high churn risk
+represent significant revenue
+provide the greatest return on intervention efforts
+
+This allows businesses to move from broad retention campaigns to precision targeting.
+
+📈 Strategy Recommendations
+
+👉 INSERT GRAPH HERE:
+Integrated Strategy Playbook (impact vs effort + ranking)
+
+Based on the analysis, we developed a set of strategic recommendations prioritized by:
+
+expected impact
+implementation effort
+estimated return on investment
+
+Key strategies include:
+
+contract conversion incentives
+improving onboarding for new customers
+targeted retention offers for high-risk segments
+
+While these strategies are informed by model insights, they represent business decisions built on data, rather than purely automated outputs.
