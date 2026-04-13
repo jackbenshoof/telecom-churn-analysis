@@ -12,7 +12,7 @@ Recommend actionable strategies to improve retention
 
 Risk Segmentation and Business Impact
 
-<img width="1024" height="374" alt="Screenshot 2026-04-13 at 12 50 40 PM" src="https://github.com/user-attachments/assets/6f261e5f-2907-4dbe-a1ac-eecbe93c4aa2" />
+<img width="1027" height="486" alt="Screenshot 2026-04-13 at 1 07 55 PM" src="https://github.com/user-attachments/assets/24f03288-7b2a-4332-9ee7-53941131491f" />
 
 Churn risk is not evenly distributed across the customer base. By segmenting customers into risk tiers, we observe that a relatively small portion of customers accounts for a disproportionately large amount of revenue at risk.
 
