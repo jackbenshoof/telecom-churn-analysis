@@ -9,7 +9,8 @@ Predict which customers are likely to churn
 Identify key drivers behind churn behavior
 Quantify the financial impact of churn
 Recommend actionable strategies to improve retention
-📊 Risk Segmentation and Business Impact
+
+Risk Segmentation and Business Impact
 
 <img width="1024" height="374" alt="Screenshot 2026-04-13 at 12 50 40 PM" src="https://github.com/user-attachments/assets/6f261e5f-2907-4dbe-a1ac-eecbe93c4aa2" />
 
@@ -23,13 +24,11 @@ understand where the greatest financial exposure exists
 
 This step is critical because it transforms churn from a general problem into a targeted business opportunity.
 
-🤖 Model Performance
+Model Performance
 
-👉 INSERT GRAPH HERE:
-Lift by Decile chart
+<img width="521" height="314" alt="Screenshot 2026-04-13 at 12 53 10 PM" src="https://github.com/user-attachments/assets/c790d8a4-d939-4400-b34c-2b3eeede9359" />
+<img width="364" height="110" alt="Screenshot 2026-04-13 at 12 53 51 PM" src="https://github.com/user-attachments/assets/a024b6ad-d401-4325-bfeb-86411f8a83e0" />
 
-👉 Also include:
-Model metrics table (AUC, Accuracy, Precision, Recall, F1)
 
 To predict churn, we trained machine learning models and evaluated their performance using multiple metrics.
 
@@ -43,11 +42,9 @@ targeted intervention is far more effective than random outreach
 
 This confirms that the model is not only accurate, but also actionable in a business context.
 
-🔍 Key Drivers of Churn
+Key Drivers of Churn
 
-👉 INSERT GRAPH HERE:
-Cohort Analysis: Churn by Tenure Segment
-(bar chart + heatmap)
+<img width="1024" height="374" alt="Screenshot 2026-04-13 at 12 50 40 PM" src="https://github.com/user-attachments/assets/7e9366ab-7750-4c6d-9bd0-6cb20a1eb0d4" />
 
 Understanding why customers churn is just as important as predicting who will churn.
 
@@ -63,10 +60,9 @@ This insight suggests that:
 
 early customer experience is critical
 contract structure plays a major role in retention
-💰 Financial Impact of Churn
+Financial Impact of Churn
 
-👉 INSERT GRAPH HERE:
-Expected Value Comparison (Intervene vs No Action)
+<img width="809" height="459" alt="Screenshot 2026-04-13 at 12 56 34 PM" src="https://github.com/user-attachments/assets/c99ac8fb-7886-47fc-8ba9-5d0ccf772e00" />
 
 To evaluate the business impact, we calculated expected value under two scenarios:
 
@@ -80,10 +76,9 @@ Targeted intervention produces positive expected value
 
 This demonstrates that churn prediction is not just informative — it directly supports profit-improving decisions.
 
-🎯 Targeting High-Value Customers
+Targeting High-Value Customers
 
-👉 INSERT GRAPH HERE:
-Top 10 Highest-Value Intervention Cases (table)
+<img width="661" height="269" alt="Screenshot 2026-04-13 at 11 47 37 AM" src="https://github.com/user-attachments/assets/9ee24190-83ac-4f9c-bc7c-352db9003c52" />
 
 Not all customers should be treated equally.
 By combining churn probability with customer value (CLV), we can identify the most important customers to retain.
